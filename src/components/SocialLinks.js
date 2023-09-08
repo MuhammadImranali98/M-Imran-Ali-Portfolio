@@ -23,7 +23,7 @@ const SocialLinks = () => {
 <> Github <FaGithub size={25}/> </>
             
         ),
-        href:"https://linkedin.com",
+        href:"https://github.com/MuhammadImranali98/",
         style:'rounded-tr-md',
         download:true,
 

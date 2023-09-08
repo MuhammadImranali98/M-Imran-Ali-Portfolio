@@ -65,9 +65,9 @@ const Experience = () => {
     <div className=' max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white w-full'>
 
     
-    <div className=' text-4xl font-bold border-b-4  border-gray-500 p-2 inline'>
+    <div className=' sm:text-4xl text-3xl  font-bold border-b-4  border-gray-500 p-2 inline'>
     <p>Expericence</p> 
-    <p className='py-6'>These are the Technologies I have Worked on</p>
+    <p className='py-6 sm:text-4xl text-xl '>These are the Technologies I have Worked on</p>
     </div>
     <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
        
