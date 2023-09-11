@@ -1,6 +1,4 @@
 import React from 'react'
-
-import installNode from "../images/installNode.jpg"
 import logo1 from "../images/logo1.PNG"
 import gbclogo from "../images/gbclogo.jpg"
 import BAC from "../images/BAC.png"
