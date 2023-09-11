@@ -9,7 +9,7 @@ const About = () => {
             About
         </p>
         </div>
-            <p className='text-lg text-gray-300 mt-5'>
+            <p className='sm:text-lg text-base text-gray-300 sm:mt-5'>
             I am a dedicated and results-oriented frontend developer with over 2 years of hands-on experience in building responsive and user-friendly web applications. My passion for creating elegant and intuitive user interfaces drives my commitment to delivering high-quality solutions.
         
            
@@ -17,10 +17,10 @@ const About = () => {
             
             <br/>
             
-            <p className='  w-[345px] text-4xl font-bold  inline mb-5  hover:duration-200  hover:border-b-4 border-gray-500'>
+            <p className='  sm:w-[345px] w-[230px] sm:text-4xl text-2xl  font-bold  inline sm:mb-5 mb-2  hover:duration-200  hover:border-b-4 border-gray-500'>
             Technical Expertise:
         </p>
-            <p className=' text-lg text-gray-300'>
+            <p className=' sm:text-lg text-base text-gray-300'>
             <p className='mb-2 hidden sm:flex'>I excel in a wide range of frontend technologies, including:</p>
             <ul>
               <li className='pb-2 hidden sm:flex'>
@@ -35,7 +35,7 @@ const About = () => {
               </li>
               <li className='pb-2'>
               <b className=' text-cyan-300'> UI Libraries:</b>
-                  I have experience working with popular UI libraries like Bootstrap and Tailwind CSS, streamlining the development process and enhancing the user experience.
+                  I have experience working with popular UI libraries like Bootstrap and Tailwind CSS  , streamlining the development process and enhancing the user experience.
               </li>
             </ul>
             <br/>
@@ -43,14 +43,14 @@ const About = () => {
             </p>
             <br/>
             
-            <p className='  w-[325px] text-4xl font-bold  inline mb-5  hover:duration-200  hover:border-b-4 border-gray-500'>
+            <p className='  sm:w-[325px]  w-[220px] text-2xl sm:text-4xl font-bold  inline sm:mb-5 mb-2  hover:duration-200  hover:border-b-4 border-gray-500'>
             Key Achievements:
         </p>
-            <p className=' text-lg text-gray-300'>
+            <p className=' sm:text-lg text-ba text-gray-300'>
             <p className='mb-2 hidden sm:flex '>During my career, I have achieved several milestones, including:</p>
             <ul>
               <li className='pb-2'>
-             <b className=' text-cyan-300'>Project Delivery: </b>   I have contributed to the successful delivery of multiple web applications, meeting or exceeding client expectations for functionality and design.
+             <b className=' text-cyan-300'>Project Delivery: </b>   I have contributed to the successful delivery of multiple web applications, <span  className=' hidden sm:flex'>meeting or exceeding client expectations for functionality and design.</span> 
               </li>
               <li className='pb-2 hidden sm:flex'>
               <b className='  text-cyan-300'>Performance Optimization:</b>      I prioritize performance optimization techniques to ensure fast-loading websites, enhancing user satisfaction and search engine rankings
