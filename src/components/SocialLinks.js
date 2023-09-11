@@ -35,7 +35,7 @@ const SocialLinks = () => {
 <> E-mail <HiOutlineMail size={25}/> </>
             
         ),
-        href:"https://mail.google.com/mail/u/0/?zx=sjx3vjzex27e#inbox",
+        href:"mailto:imrangujjar3198@gmail.com",
         style:'rounded-tr-md',
         download:true,
 
