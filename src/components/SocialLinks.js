@@ -11,7 +11,7 @@ const SocialLinks = () => {
 <> LinkedIn <FaLinkedin size={25}/> </>
             
         ),
-        href:"https://linkedin.com",
+        href:"https://www.linkedin.com/in/muhammad-imran-ali-383110228",
         style:'rounded-tr-md',
         download:true,
 
@@ -44,7 +44,7 @@ const SocialLinks = () => {
         id:1,
         child:(
             
-<> home <BsFillPersonLinesFill size={25}/> </>
+<> Resume <BsFillPersonLinesFill size={25}/> </>
             
         ),
         href:"https://linkedin.com",

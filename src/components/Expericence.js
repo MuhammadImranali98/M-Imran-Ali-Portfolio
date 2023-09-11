@@ -4,7 +4,7 @@ import css from "../images/css.png"
 import javascript from "../images/javascript.png"
 import react from "../images/react.png"
 import nextjs from "../images/nextjs.png"
-import graphql from "../images/graphql.png"
+import bootstrap from "../images/bootstrap.svg"
 import github from "../images/github.png"
 import tailwind from "../images/tailwind.png"
 const Experience = () => {
@@ -42,21 +42,21 @@ const Experience = () => {
         },
         {
             id:6,
-            src:graphql,
-            title:'Next JS',
-            style:" shadow-sky-400"
+            src:bootstrap,
+            title:'Bootstrap',
+            style:" shadow-purple-400"
         },
         {
             id:7,
             src:github,
             title:'Git hub',
-            style:" shadow-pink-400"
+            style:" shadow-gray-600"
         },
         {
             id:8,
             src:tailwind,
             title:'Tailwind',
-            style:" shadow-gray-400"
+            style:" shadow-cyan-400"
         },
     ]
     
@@ -67,8 +67,9 @@ const Experience = () => {
     
     <div className=' sm:text-4xl text-2xl  font-bold border-b-4  border-gray-500 p-2 inline'>
     <p>Expericence</p> 
-    <p className='py-6 sm:text-4xl text-xl '>These are the Technologies I have Worked on</p>
+    <p className='py-6 sm:text-2xl text-xl '>These are the Technologies I have Worked on</p>
     </div>
+    
     <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
        
        {

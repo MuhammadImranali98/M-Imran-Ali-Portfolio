@@ -1,10 +1,10 @@
 import React from 'react'
-// import graphql from "../images/graphql.png"
+
 import installNode from "../images/installNode.jpg"
 import logo1 from "../images/logo1.PNG"
-import gbc from "../images/gbc.PNG"
+import gbclogo from "../images/gbclogo.jpg"
 import BAC from "../images/BAC.png"
-import skybridgecars from "../images/skybridgecars.png"
+import sky from "../images/sky.jpg"
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,7 +15,7 @@ const Portfolio = () => {
     },
     {
       id:2,
-      src:gbc,
+      src:gbclogo,
       href:'https://greatbritaincars.co.uk/'
     },
     {
@@ -25,13 +25,14 @@ const Portfolio = () => {
     },
     {
       id:4,
-      src:skybridgecars,
+      src:sky,
       href:' https://skybridgecars.com/'
-    },    {
-      id:5,
-      src:installNode,
-      href:'https://www.haleemghar.com.pk/'
-    },
+    },   
+    //  {
+    //   id:5,
+    //   src:installNode,
+    //   href:'https://www.haleemghar.com.pk/'
+    // },
     // {
     //   id:6,
     //   src:installNode,
