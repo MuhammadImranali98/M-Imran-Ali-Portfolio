@@ -58,7 +58,7 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 sm:p-4 p-1 text-white">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div className="pb-8">
+        <div className="sm:pb-8 pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
           <p className="sm:py-6 py-3">Submit the form below to get in touch with me</p>
         </div>

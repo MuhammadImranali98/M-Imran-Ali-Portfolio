@@ -67,10 +67,10 @@ const Experience = () => {
     
     <div className=' sm:text-4xl text-2xl  font-bold border-b-4  border-gray-500 p-2 inline'>
     <p>Expericence</p> 
-    <p className='py-6 sm:text-2xl text-xl '>These are the Technologies I have Worked on</p>
+    <p className='sm:py-6 py-2 sm:text-2xl text-base '>These are the Technologies I have Worked on</p>
     </div>
     
-    <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 '>
+    <div className='w-full grid grid-cols-2 sm:grid-cols-3 sm:gap-8 gap-5 text-center sm:py-8 py-2 px-4 sm:px-0 '>
        
        {
         techs.map(({id,src,title,style})=>(
