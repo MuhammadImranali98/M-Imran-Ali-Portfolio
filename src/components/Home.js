@@ -31,8 +31,8 @@ const Home = () => {
            
               
           
-            <div className='flex w-full  justify-center flex-col'>
-            <h1 className='text-4xl  sm:text-7xl font-bold'>I am a  <span className="text"></span> </h1>
+            <div className='flex w-full sm:mt-24 md:mt-1  justify-center flex-col'>
+            <h1 className='text-4xl sm:mt-10 md:mt-1 sm:text-7xl font-bold'>I am a  <span className="text"></span> </h1>
             <p className=' text-gray-300 text-lg py-4 max-w-md'>
        I have 2 years of experience building and desgining
         software.
