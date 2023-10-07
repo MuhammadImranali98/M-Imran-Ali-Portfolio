@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 import profile from "../images/profile.jpeg"
 import {Link} from "react-scroll"
+import Typed from 'typed.js';
 const Home = () => {
+  useEffect(() => {
+  
+    const options = {
+      strings: ["Frontend Developer", "React Developer ", "Nextjs Developer", "Web Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop: true
+    };
 
+   
+    const typed = new Typed(".text", options);
+
+    
+    return () => {
+      typed.destroy();
+    };
+  }, []);
  
   return (
     <div>
@@ -14,8 +32,8 @@ const Home = () => {
               
           
             <div className='flex w-full  justify-center flex-col'>
-            <h1 className='text-4xl  sm:text-7xl font-bold'>I am a FrontEnd Developer</h1>
-            <p className=' text-gray-300 py-4 max-w-md'>
+            <h1 className='text-4xl  sm:text-7xl font-bold'>I am a  <span className="text"></span> </h1>
+            <p className=' text-gray-300 text-lg py-4 max-w-md'>
        I have 2 years of experience building and desgining
         software.
      Currently, I love to work on web application using
@@ -33,7 +51,7 @@ const Home = () => {
             </div>
             
             <div className='rounded'>
-            <img src={profile} className=' rounded-2xl bg-transparent mx-auto w-2/3 md:w-2/3  mt-3 sm:mt-0' alt='my profile' />
+            <img src={profile} className=' rounded-2xl bg-transparent mx-auto  w-10/12  mt-3 sm:mt-0' alt='my profile' />
             </div>
         </div>
       </div>
