@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
-import profile from "../images/profile.jpeg"
+import profile from "../images/homeimg.png"
 import {Link} from "react-scroll"
 import Typed from 'typed.js';
 const Home = () => {
@@ -49,9 +49,10 @@ const Home = () => {
             </Link>
             </div>
             </div>
-            
-            <div className='rounded'>
-            <img src={profile} className=' rounded-2xl bg-transparent mx-auto  w-10/12  mt-3 sm:mt-0' alt='my profile' />
+            <div className=' h-auto md:h-full rounded-sm'>
+            <div className='rounded-2xl object-contain h-full'>
+            <img src={profile} className=' rounded-2xl object-contain min-h-full bg-transparent mx-auto  w-full  mt-3 sm:mt-0' alt='my profile' />
+            </div>
             </div>
         </div>
       </div>
