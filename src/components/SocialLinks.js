@@ -49,7 +49,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={25} />{" "}
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://wa.me/+923026009873",
       style: "rounded-tr-md",
       download: true,
     },
