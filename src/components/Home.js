@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import profile from "../images/homeimg.png";
-import { Link } from "react-scroll";
 import Typed from "typed.js";
 const Home = () => {
   useEffect(() => {
