@@ -49,7 +49,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={25} />{" "}
         </>
       ),
-      href: "https://wa.me/+923026009873",
+      href: "https://magenta-cecilia-48.tiiny.site",
       style: "rounded-tr-md",
       download: true,
     },
