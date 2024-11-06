@@ -65,7 +65,7 @@ const Contact = () => {
         <div className="flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col w-full md:w-1/2 h-screen"
+            className="flex flex-col w-full md:w-1/2 h-full"
           >
             <input
               type="text"

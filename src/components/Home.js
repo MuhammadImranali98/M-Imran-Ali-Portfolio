@@ -6,7 +6,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Frontend Developer",
+        "Frontend Dev",
         "React Developer ",
         "Nextjs Developer",
         "Web Developer",
@@ -28,10 +28,10 @@ const Home = () => {
     <div>
       <div
         name="home"
-        className="h-screen w-full bg-gradient-to-b  text-white from-black via-black  to-gray-800"
+        className="h-full w-full bg-gradient-to-b  text-white from-black via-black  to-gray-800"
       >
-        <div className=" max-w-screen-xl w-full mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-          <div className="flex w-full md:mt-1  justify-center flex-col">
+        <div className=" max-w-screen-lg w-full mx-auto  flex flex-col items-center justify-center h-full px-4 md:flex-row">
+          <div className="flex w-full md:mt-20 justify-center flex-col">
             <h1 className="text-4xl  handlemt sm:text-7xl font-bold">
               I am a <span className="text"></span>{" "}
             </h1>
@@ -60,7 +60,7 @@ const Home = () => {
             <div className="rounded-2xl object-contain h-full">
               <img
                 src={profile}
-                className=" rounded-2xl object-contain min-h-full bg-transparent mx-auto  w-full  mt-3 sm:mt-0"
+                className=" rounded-2xl object-contain min-h-full bg-transparent mx-auto  w-full   sm:mt-20"
                 alt="my profile"
               />
             </div>
